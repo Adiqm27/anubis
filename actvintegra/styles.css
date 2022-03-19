@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box; /*para ocupar un solo espaciado tanto de borde exterior como inferior */
+    margin: 0; /*para que no haya márgenes hacia afuera */
+    padding: 0; /*para que no haya espaciados hacia adentro */
+}
+
+  /*Estilos de navegación*/
+  .naveg-main {
+    font-size: 17px;
+    display: flex;/*Para organizar los elementos*/
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+	 
+	  
+  }
+  
+/*Sección de información*/
+.informacion{
+    width: 1215px; /*largo del area del contenido*/
+    height: 270px;/*ancho del area del contenido*/
+    background-color:#e2e0d9;
+    padding-bottom: 120px; /*Margen inferior*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    border-radius: 10px; /*esquinas del contedor, mas o menos circular*/
+    text-align: center; /*Centrar el texto*/
+	
+	
+}
+
+.informacion h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin: 25px 0;
+    text-align: center; /*Centrar el texto*/ 
+}
+
+.informacion p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin: 5px 0;
+    text-align: center; /*Centrar el texto*/ 
+}
+
